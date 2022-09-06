@@ -1,0 +1,213 @@
+:root {
+--primary-bg-color : #FFFFFF;
+--block-bg-color : #2F303A;
+--section-bg-color : #F5F4FA;
+--active-color : #2196F3;
+--primary-text-color : #212121;
+--text-color : #757575;
+}
+body {
+font-family : 'Roboto', sans-serif;
+background-color : #FFFFFF;
+}
+.logo {
+font-family : 'Raleway';
+font-style : normal;
+font-weight : 700;
+font-size : 26px;
+line-height : 31px;
+letter-spacing : 0.03em;
+}
+.logo-first {
+text-decoration : none;
+color : var(--active-color);
+}
+.logo-end {
+color : #000000;
+}
+.nav-li, .contacts-li {
+list-style-type : none;
+font-style : normal;
+font-weight : 500;
+font-size : 14px;
+line-height : 16px;
+letter-spacing : 0.02em;
+}
+.link {
+text-decoration : none;
+color : var(--primary-text-color);
+cursor : pointer;
+}
+.site-nav .link.current {
+color : var(--active-color);
+}
+.contacts-link {
+font-style : normal;
+font-weight : 500;
+font-size : 14px;
+line-height : 16px;
+letter-spacing : 0.02em;
+color : var(--text-color);
+text-decoration : none;
+cursor : pointer;
+}
+.contacts-link:hover, .contacts-link:focus {
+color : var(--active-color);
+}
+.hero-section {
+background-color : #2F303A;
+color : var(--primary-bg-color);
+text-align : center;
+letter-spacing : 0.06em;
+text-transform : uppercase;
+}
+.hero-title h1 {
+font-style : normal;
+font-weight : 900;
+font-size : 44px;
+line-height : 60px;
+text-align : center;
+letter-spacing : 0.06em;
+text-transform : uppercase;
+}
+.hero-button button {
+font-style : normal;
+font-weight : 700;
+font-size : 16px;
+line-height : 30px;
+display : flex;
+align-items : center;
+text-align : center;
+letter-spacing : 0.06em;
+color : var(--primary-bg-color);
+background-color : #2196F3;
+}
+.about {
+font-style : normal;
+}
+.about-item {
+list-style-type : none;
+}
+.about-title {
+font-weight : 700;
+font-size : 14px;
+line-height : 16px;
+letter-spacing : 0.03em;
+text-transform : uppercase;
+color : var(--primary-text-color);
+}
+.about-text {
+font-weight : 400;
+font-size : 14px;
+line-height : 24px;
+letter-spacing : 0.03em;
+color : var(--text-color);
+}
+.profile {
+font-style : normal;
+}
+.profile-title {
+font-weight : 700;
+font-size : 36px;
+line-height : 42px;
+text-align : center;
+letter-spacing : 0.03em;
+color : var(--primary-text-color);
+}
+.profile-list {
+list-style-type : none;
+}
+.team-title {
+font-weight : 700;
+font-size : 36px;
+line-height : 42px;
+text-align : center;
+letter-spacing : 0.03em;
+color : var(--primary-text-color);
+}
+.team-list {
+list-style-type : none;
+}
+.team-name {
+font-weight : 500;
+font-size : 16px;
+line-height : 19px;
+text-align : center;
+letter-spacing : 0.03em;
+color : var(--primary-text-color);
+}
+.team-position {
+font-style : normal;
+font-weight : 400;
+font-size : 16px;
+line-height : 19px;
+text-align : center;
+letter-spacing : 0.03em;
+color : var(--text-color);
+}
+.button {
+font-style : normal;
+font-weight : 500;
+font-size : 16px;
+line-height : 26px;
+text-align : center;
+letter-spacing : 0.03em;
+color : var(--primary-text-color);
+background-color : #F5F4FA;
+}
+.button:hover, .button:focus {
+color : var(--primary-bg-color);
+background-color : #2196F3;
+}
+.portfolio-item {
+list-style-type : none;
+}
+.portfolio-link {
+text-decoration : none;
+}
+.list-title {
+font-style : normal;
+font-weight : 700;
+font-size : 18px;
+line-height : 36px;
+letter-spacing : 0.06em;
+color : var(--primary-text-color);
+}
+.list-text {
+font-style : normal;
+font-weight : 400;
+font-size : 16px;
+line-height : 30px;
+letter-spacing : 0.03em;
+color : var(--text-color);
+}
+.footer {
+background-color : #2F303A;
+}
+.footer-end {
+color : var(--primary-bg-color);
+}
+.footer-list li {
+list-style-type : none;
+}
+.adress-link {
+font-style : normal;
+font-weight : 400;
+font-size : 14px;
+line-height : 24px;
+letter-spacing : 0.03em;
+color : var(--primary-bg-color);
+text-decoration : none;
+}
+.footer-contacts {
+font-style : normal;
+font-weight : 400;
+font-size : 14px;
+line-height : 24px;
+letter-spacing : 0.03em;
+color : rgb(255, 255, 255, 0.6);
+text-decoration : none;
+}
+.footer-contacts:hover, .footer-contacts:focus {
+color : var(--active-color);
+}
