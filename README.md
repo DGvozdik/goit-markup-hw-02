@@ -1,3 +1,3 @@
 # goit-markup-hw-02
 
-Home work
+Home work 2 module
